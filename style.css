@@ -1,0 +1,82 @@
+/***************************************
+  BASIC OVERRIDES & GLOBAL STYLES
+****************************************/
+
+/* TODO #1: Change "Roboto" to any other Google Font or local font you prefer. */
+body {
+  font-family: "Roboto", Arial, sans-serif;
+  /* TODO #2: Adjust the background color if you want a different look. */
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+/***************************************
+  NAVBAR
+****************************************/
+/* TODO #3: Override the default navbar color here if you'd like a custom shade. */
+.navbar-dark.bg-dark {
+  background-color: #343a40 !important;
+}
+
+/***************************************
+  HERO SECTION
+****************************************/
+/* TODO #4: Uncomment or change the background property below to add a custom hero image. */
+.hero-section {
+  background-color: #007bff;
+  height: 60vh; 
+  color: #fff;
+}
+.hero-content {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+}
+/* TODO #5: Adjust the hero title size or style if you like. */
+.hero-title {
+  font-size: 3rem;
+}
+.hero-subtitle {
+  font-size: 1.2rem;
+}
+
+/***************************************
+  ABOUT SECTION
+****************************************/
+#about-section h2 {
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+#about-section p {
+  line-height: 1.6;
+}
+
+/***************************************
+  CARDS SECTION
+****************************************/
+/* TODO #6: Consider adding a hover effect, shadow, or transition to make your cards pop. */
+.card:hover {
+  transform: translateY(-5px);
+  transition: 0.3s ease-in-out;
+}
+
+/***************************************
+  FOOTER
+****************************************/
+footer {
+  font-size: 0.9rem;
+}
+
+/***************************************
+  CUSTOM COLOR PALETTE (OPTIONAL)
+****************************************/
+/* 
+ :root {
+   --primary-color: #007bff;
+   --secondary-color: #343a40;
+   --accent-color: #ffc107;
+ }
+*/
+
+/***************************************
+  ADDITIONAL CLASSES (OPTIONAL)
+****************************************/

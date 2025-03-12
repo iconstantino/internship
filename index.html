@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Internship Portfolio</title>
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+
+  <!-- CSS TODO #1: Add a reference to the style.css -->
+
+</head>
+<body>
+
+  <!-- TODO #1: Change "My Internship Portfolio" to your own title or name. -->
+  <!-- TODO #2: The "Home" link currently has href="#". You can link to a section on this page if you want, like "#about-section". -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">My Internship Portfolio</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- TODO #3: Add an <h2> between the <h1> and the <p> that summarizes your experience so far. -->
+  <!-- TODO #4: Change the button text if you want, like "Click for a Surprise!". -->
+  <header 
+    class="hero-section text-center d-flex align-items-center justify-content-center"
+    style="height: 60vh; background-color: #007bff; color: #fff;"
+  >
+    <div class="hero-content">
+      <h1 class="hero-title">Welcome to My Internship Journey</h1>
+      <p class="hero-subtitle">Where I learn coding, networking, and more!</p>
+      <button id="magicButton" class="btn btn-primary mt-3">
+        Click Me for a Surprise!
+      </button>
+    </div>
+  </header>
+
+  <!-- TODO #5: Replace [Your Name] with your actual name. -->
+  <!-- TODO #6: Add an new <p> to explain who you are and what you like to do -->
+  <section class="container my-5" id="about-section">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <h2>About Me</h2>
+        <p>
+          Hello! I'm [Your Name]. This is my internship portfolio where I document
+          everything I'm learning—from front-end design to server-side tasks!
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- TODO #7: Replace the placeholder images an image from the images folder. -->
+  <!-- TODO #8: Add a new card with experience from your previous internship session. -->
+  <section class="container my-5">
+    <div class="row">
+
+      <!-- Card Start -->
+      <div class="col-md-4 mb-4">
+        <div class="card shadow h-100">
+          <img
+            src="https://via.placeholder.com/400x200"
+            class="card-img-top"
+            alt="App Dev"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Application Development</h5>
+            <p class="card-text">
+              Dive into my journey of building apps, exploring front-end and
+              back-end development.
+            </p>
+            <a href="dev.html" class="btn btn-dark">Learn More</a>
+          </div>
+        </div>
+      </div>      
+      <!-- Card End -->
+
+    </div>
+  </section>
+
+  <!-- TODO #9: Update the footer text with your name and update the year. -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p>© 2024 SDCOE Internship Program</p>
+  </footer>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+  ></script>
+  <script src="script.js"></script>
+</body>
+</html>
